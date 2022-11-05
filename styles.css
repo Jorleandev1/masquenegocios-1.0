@@ -1,0 +1,355 @@
+*{
+	
+ }
+body{
+	font-family: "Arial";
+	font-size: 18px;
+	color: black;
+  margin: 0;
+  }
+header{
+	padding: 10px;
+  }
+header .logo{
+	width: 350px;
+  height: 60px;
+  }
+header .contenedor nav{
+  float: right;
+  line-height: 50px;
+  }
+.contenedor nav a{
+	color: black;
+	margin: 0 30px; 
+  display: flex;
+  display: inline-block;  
+  }
+#masquenegocios img{
+	width: 100%;
+	display: block;
+  }
+.boton{
+  text-align: center;
+  text-decoration: none;
+  padding: 15px 20px;
+  border: none;
+  padding-top: 10px;
+  }
+.boton.boton-orange{
+    background-color: orangered;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+		border-bottom-left-radius: 1ex;
+		border-bottom-right-radius: 1ex;
+		border-top-left-radius: 1ex;
+		border-top-right-radius: 1ex;
+  }
+.boton.boton-orange:hover{
+    background-color: black;
+    color: white;
+    transition:1s;
+    -moz-transition:1s;
+    -ms-transition:1s;
+    -o-transition:1s;
+    -webkit-transition:1s;
+  }
+#masquenegocios .bloque-masquenegocios{
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	width: 400px;
+	text-align: center;
+	margin-left: -200px;
+  }
+#masquenegocios .bloque-masquenegocios h1{
+	color: white;
+	font-size: 40px;
+  }
+#masquenegocios .bloque-masquenegocios  p{
+	color: white;
+	font-size: 18px;
+  }
+#barra{
+  background-color: #039;
+  width: 100%;
+  height: 20px;
+  }
+#barra2
+{
+  background-color: #069;
+  width: 100%;
+  height: 20px;
+}
+
+.category_container h1 {
+  text-align: center;
+}
+
+.category_container h3 {
+  text-align: center;
+}
+.section_container {
+  flex-direction: column;
+  display:inline-block;
+  width: 100%;
+}
+.item_container 
+{
+  text-align:center;
+  width: 290px;
+  height: 400px;
+  float: left;
+  margin: 21px;
+  }
+
+  .item_container img
+{
+	padding-top: 0;
+  height: 80px;
+  weight: 80px; 
+}
+.item_container h4
+{
+	padding-top: -7px;  
+}
+  
+.item_container p
+{
+	padding-bottom:10px;
+  height: 120px;  
+}
+
+.item_container  h3{
+  height: 46px;
+}
+  
+.boton.boton-blanco     
+{
+  
+  display: inline-block;
+  height: 25px;
+  width: 80px;  
+  background-color: white;
+  color: black;
+  border: 1px dotted orangered;
+  
+  }
+
+.boton.boton-blanco:hover    
+{
+    background-color: orangered;
+    color: white;
+    transition:1s;
+    -moz-transition:1s;
+    -ms-transition:1s;
+    -o-transition:1s;
+    -webkit-transition:1s;
+}
+
+
+#contacto 
+{
+ 	background-image: url(img/fondocontacto.png);
+  background-size: cover;
+  display: inline-block;  
+  padding: 25px
+	   
+}
+
+#contacto .contacto1 h2
+{
+  display: block;
+  color: orangered; 
+  text-align: left;
+  text-decoration: none;
+  padding: 15px 20px;
+}
+
+#contacto .contacto1 h3
+{
+  color: black;
+  margin-left: 20px;  
+}
+
+.contacto2
+{
+  width: 48%;
+  float: left;
+  height: 372px;  
+  background-color: grey;
+  padding-left: 20px;
+  padding-top: 5px;
+  
+}
+
+#cuadro 
+{
+background-color: #69c;
+
+height: 160px;
+width: 500px;
+display: flex;
+padding-top: 15px;
+padding-left: 20px;
+margin: 60px;
+
+
+}
+ 
+.contacto3
+{
+  width: 45%;
+  float: left;
+  height: 372px;
+  padding-left: 0px;
+  background-color: #069;
+  padding-right: 70px;
+  padding-top: 5px;
+  }
+
+
+.whatsapp img {}
+
+.contactItem {
+  width: 44%;
+  float: left;
+  padding: 15px;
+}
+
+.contactItem img{
+  width: 62px;
+  height: 62px;
+  float: left;
+}
+.contactItem .contactItemContent{
+  
+}
+.contactItemData{
+  height: 37.5px;
+  margin-left: 15px;
+  display: inline-block;
+}
+.contactItemTitle{
+  
+}
+
+.contactItemValue{
+  
+  }
+
+#numero
+{
+margin: 10px;
+margin-top: 35px;
+margin-left: 90px;
+display: inline-block;
+}
+
+#otro
+{
+
+margin: 10px;
+margin-top: 15px;
+margin-left: 90px;
+display: inline-block;
+
+}
+
+.contacto2 form .form-block p
+{
+  color: white;
+  padding-top: 0;
+}
+
+.contacto2 .form-block
+{
+	width: 100%;
+  height: 100%;
+	margin-bottom: 5px;  
+}
+
+.contacto2 form .form-block .form-control
+{
+	display: block;
+	height: 100%;
+	font-size: 16px;
+	border: 1px solid grey;
+	width: 90%;
+	padding: 5px 10px;
+  border-bottom-left-radius: 1ex;
+  border-bottom-right-radius: 1ex;
+  border-top-left-radius: 1ex;
+  border-top-right-radius: 1ex;
+}
+
+.contacto2 textarea
+{
+	display: block;
+	height: 80px;
+	font-size: 16px;
+	border: 1px solid none;
+	width: 90%;
+	padding: 5px 10px;
+  border-bottom-left-radius: 1ex;
+  border-bottom-right-radius: 1ex;
+  border-top-left-radius: 1ex;
+  border-top-right-radius: 1ex;
+}
+
+.contacto2 .bloque-ultimo .boton-negro
+  {
+      background-color: orangered;
+      color: white;
+      font-size: 20px;
+      
+      border-bottom-left-radius: 1ex;
+      border-bottom-right-radius: 1ex;
+      border-top-left-radius: 1ex;
+      border-top-right-radius: 1ex;
+  }
+
+  .contacto2 .bloque-ultimo .boton-negro:hover
+  {
+      background-color: black;
+      color: white;
+      transition:1s;
+      -moz-transition:1s;
+      -ms-transition:1s;
+      -o-transition:1s;
+      -webkit-transition:1s;
+  }
+
+  #barra3 
+  {
+    display: inline-block;
+    background-color: #099;
+    width: 100%;
+    
+    text-align: center;
+    margin-top: 1px;
+    color: white;
+    padding-top: 2px;
+    padding-bottom: 1px;
+  }
+  
+#footer p
+{
+  text-align: center; 
+}
+
+#container0 .redessociales a 
+	{
+		display: flex;
+    float: left;    
+  }
+
+
+  @media(max-width: 767px)
+{
+
+  #trucazo {
+    opacity: 0;
+  }
+ 
+ 
