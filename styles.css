@@ -176,25 +176,25 @@ header .contenedor nav{
 {
   width: 48%;
   float: left;
-  height: 372px;  
+  height: 372px;
   background-color: grey;
   padding-left: 20px;
   padding-top: 5px;
-  
+  border-top-left-radius: 1ex;
+  border-bottom-left-radius: 1ex;  
 }
 
 #cuadro 
 {
-background-color: #69c;
-
-height: 160px;
-width: 500px;
-display: flex;
-padding-top: 15px;
-padding-left: 20px;
-margin: 60px;
-
-
+  background-color: #69c;
+  height: 215px;
+  width: 500px;
+  display: flex;
+  padding-top: 10px;
+  padding-left: 20px;
+  margin: 60px;
+  -webkit-border-radius: 0.5ex;
+  
 }
  
 .contacto3
@@ -204,8 +204,10 @@ margin: 60px;
   height: 372px;
   padding-left: 0px;
   background-color: #069;
-  padding-right: 70px;
+  padding-right: 68px;
   padding-top: 5px;
+  border-top-right-radius: 1ex;
+  border-bottom-right-radius: 1ex;
   }
 
 
