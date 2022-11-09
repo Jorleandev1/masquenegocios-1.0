@@ -1,5 +1,4 @@
-*{
-	
+*{	
  }
 body{
 	font-family: "Arial";
@@ -14,21 +13,23 @@ header .logo{
 	width: 350px;
   height: 60px;
   }
-header .contenedor nav{
+header .container nav{
   float: right;
   line-height: 50px;
   }
-.contenedor nav a{
+.container nav a{
 	color: black;
 	margin: 0 30px; 
   display: flex;
   display: inline-block;  
   }
-#masquenegocios img{
+  /* body  primera section*/
+
+#business img{
 	width: 100%;
 	display: block;
   }
-.boton{
+.button{
   text-align: center;
   text-decoration: none;
   padding: 15px 20px;
@@ -37,7 +38,7 @@ header .contenedor nav{
   width: 145px;
   height: 45px;
   }
-.boton.boton-orange{
+.button.button-orange{
     background-color: orangered;
     color: white;
     font-size: 20px;
@@ -47,7 +48,7 @@ header .contenedor nav{
 		border-top-left-radius: 1ex;
 		border-top-right-radius: 1ex;
   }
-.boton.boton-orange:hover{
+.button.button-orange:hover{
     background-color: black;
     color: white;
     transition:1s;
@@ -56,7 +57,7 @@ header .contenedor nav{
     -o-transition:1s;
     -webkit-transition:1s;
   }
-#masquenegocios .bloque-masquenegocios{
+#business .block-business{
 	position: absolute;
 	top: 30%;
 	left: 50%;
@@ -64,21 +65,20 @@ header .contenedor nav{
 	text-align: center;
 	margin-left: -200px;
   }
-#masquenegocios .bloque-masquenegocios h1{
+#business .block-business h1{
 	color: white;
 	font-size: 40px;
   }
-#masquenegocios .bloque-masquenegocios  p{
+#business .block-business  p{
 	color: white;
 	font-size: 18px;
   }
-#barra{
+#bar_1{
   background-color: #039;
   width: 100%;
   height: 20px;
   }
-#barra2
-{
+#bar_2{
   background-color: #069;
   width: 100%;
   height: 20px;
@@ -87,7 +87,6 @@ header .contenedor nav{
 .category_container h1 {
   text-align: center;
 }
-
 .category_container h3 {
   text-align: center;
 }
@@ -96,50 +95,38 @@ header .contenedor nav{
   display:inline-block;
   width: 100%;
 }
-.item_container 
-{
+.item_container{
   text-align:center;
   width: 290px;
   height: 400px;
   float: left;
   margin: 21px;
   }
-
-  .item_container img
-{
+  .item_container img{
 	padding-top: 0;
   height: 80px;
-  weight: 80px; 
+  weight: 80px;
 }
-.item_container h4
-{
-	padding-top: -7px;  
+.item_container h4{
+	padding-top: -7px;
 }
-  
-.item_container p
-{
+.item_container p{
 	padding-bottom:10px;
-  height: 120px;  
+  height: 120px;
 }
-
 .item_container  h3{
   height: 46px;
 }
-  
-.boton.boton-blanco     
-{
-  
+.button.button-white{ 
   display: inline-block;
   height: 25px;
   width: 80px;  
   background-color: white;
   color: black;
-  border: 1px dotted orangered;
-  
+  border: 1px dotted orangered;  
   }
 
-.boton.boton-blanco:hover    
-{
+.button.button-white:hover{
     background-color: orangered;
     color: white;
     transition:1s;
@@ -149,43 +136,33 @@ header .contenedor nav{
     -webkit-transition:1s;
 }
 
-.container00 {
+.container_form {
   height: 387px;
   width: 1304px;
   padding-top: 11px;
   opacity: 0.96;
   background: inherit;
-  -webkit-border-radius: 0.5ex;
-  
+  -webkit-border-radius: 0.5ex;  
 }
-
-#contacto 
-{
+#contact {
  	background-image: url(img/fondocontacto.png);
   background-size: cover;
   display: inline-block;  
-  padding: 25px
-	   
+  padding: 25px;	   
 }
-
-#contacto .contacto1 h2
-{
+#contact .contact_1 h2{
   display: block;
   color: #ffcc66; 
   text-align: left;
   text-decoration: none;
   padding: 15px 20px;
 }
-
-#contacto .contacto1 p
-{
+#contact .contact_1 p{
   color: white;
   margin-left: 20px;
   font-size: 21px;
 }
-
-.contacto2
-{
+.contact_2{
   width: 47%;
   float: left;
   height: 372px;
@@ -197,8 +174,7 @@ header .contenedor nav{
   margin-left: 14px;
 }
 
-#cuadro 
-{
+#frame {
   background-color: #69c;
   height: 215px;
   width: 500px;
@@ -210,11 +186,10 @@ header .contenedor nav{
   color: white;
   }
  
-  .cuadro_contenido p{
+.frame_contents p{
     padding-top: 120px;
   }
-.contacto3
-{
+.contact_3{
   width: 44%;
   float: left;
   height: 372px;
@@ -228,70 +203,33 @@ header .contenedor nav{
   }
 
 
-.whatsapp img {}
-
 .contactItem {
   width: 44%;
   float: left;
   padding: 15px;
 }
-
 .contactItem img{
   width: 62px;
   height: 62px;
   float: left;
-}
-.contactItem .contactItemContent{
-  color: white;
 }
 .contactItemData{
   height: 37.5px;
   margin-left: 15px;
   display: inline-block;
 }
-.contactItemTitle{
-  
-}
-
-.contactItemValue{
-  
-  }
-
-#numero
-{
-margin: 10px;
-margin-top: 35px;
-margin-left: 90px;
-display: inline-block;
-}
-
-#otro
-{
-
-margin: 10px;
-margin-top: 15px;
-margin-left: 90px;
-display: inline-block;
-
-}
-
-.contacto2 form .form-block p
+.contact_2 form .form-block p
 {
   color: white;
   padding-top: 0;
 }
-
-.contacto2 .form-block
-{
+.contact_2 .form-block{
 	width: 100%;
   height: 100%;
 	margin-bottom: 4px;
-  text-align: center;
-    
+  text-align: center;    
 }
-
-.contacto2 form .form-block .form-control
-{
+.contact_2 form .form-block .form-control{
 	display: block;
 	height: 100%;
 	font-size: 16px;
@@ -303,9 +241,7 @@ display: inline-block;
   border-top-left-radius: 0.5ex;
   border-top-right-radius: 0.5ex;
 }
-
-.contacto2 textarea
-{
+.contact_2 textarea{
 	display: block;
 	height: 125px;
 	font-size: 16px;
@@ -318,20 +254,16 @@ display: inline-block;
   border-top-right-radius: 0.5ex;
 }
 
-.contacto2 .bloque-ultimo .boton-negro
-  {
+.contact_2 .block-latest .button-black {
       background-color: #ff6600;
       color: white;
-      font-size: 20px;
-      
+      font-size: 20px;      
       border-bottom-left-radius: 0.5ex;
       border-bottom-right-radius: 0.5ex;
       border-top-left-radius: 0.5ex;
       border-top-right-radius: 0.5ex;
   }
-
-  .contacto2 .bloque-ultimo .boton-negro:hover
-  {
+  .contact_2 .block-latest .button-black:hover {
       background-color: black;
       color: white;
       transition:1s;
@@ -340,37 +272,21 @@ display: inline-block;
       -o-transition:1s;
       -webkit-transition:1s;
   }
-
-  #barra3 
-  {
+  #bar_3 {
     display: inline-block;
     background-color: #099;
-    width: 100%;
-    
+    width: 100%;    
     text-align: center;
     margin-top: 1px;
     color: white;
     padding-top: 2px;
     padding-bottom: 1px;
-  }
-  
-#footer p
-{
+  }  
+#footer p{
   text-align: center; 
 }
 
-#container0 .redessociales a 
-	{
-		display: flex;
-    float: left;    
-  }
-
-
-  @media(max-width: 767px)
+  @media(max-width: 320px)
 {
-
-  #trucazo {
-    opacity: 0;
-  }
- 
- 
+  @media(min-width: 768px)
+  {
