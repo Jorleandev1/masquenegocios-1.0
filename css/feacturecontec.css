@@ -1,0 +1,40 @@
+
+#business img{
+	width: 100%;
+	display: block;
+  }
+.button.button-orange{
+  background-color: orangered;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  border-bottom-left-radius: 1ex;
+  border-bottom-right-radius: 1ex;
+  border-top-left-radius: 1ex;
+  border-top-right-radius: 1ex;
+}
+.button.button-orange:hover{
+  background-color: black;
+  color: white;
+  transition:1s;
+  -moz-transition:1s;
+  -ms-transition:1s;
+  -o-transition:1s;
+  -webkit-transition:1s;
+}
+#business .block-business{
+position: absolute;
+top: 30%;
+left: 50%;
+width: 400px;
+text-align: center;
+margin-left: -200px;
+}
+#business .block-business h1{
+color: white;
+font-size: 40px;
+}
+#business .block-business  p{
+color: white;
+font-size: 18px;
+}

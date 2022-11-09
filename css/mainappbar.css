@@ -1,0 +1,17 @@
+header{
+	padding: 10px;
+  }
+header .logo{
+	width: 350px;
+  height: 60px;
+  }
+header .container nav{
+  float: right;
+  line-height: 50px;
+  }
+.container nav a{
+	color: black;
+	margin: 0 30px; 
+  display: flex;
+  display: inline-block;  
+  }

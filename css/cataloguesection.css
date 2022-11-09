@@ -1,0 +1,45 @@
+.section_container {
+  flex-direction: column;
+  display:inline-block;
+  width: 100%;
+}
+.item_container{
+  text-align:center;
+  width: 290px;
+  height: 400px;
+  float: left;
+  margin: 21px;
+  }
+  .item_container img{
+	padding-top: 0;
+  height: 80px;
+  weight: 80px;
+}
+.item_container h4{
+	padding-top: -7px;
+}
+.item_container p{
+	padding-bottom:10px;
+  height: 120px;
+}
+.item_container  h3{
+  height: 46px;
+}
+.button.button-white{ 
+  display: inline-block;
+  height: 25px;
+  width: 80px;  
+  background-color: white;
+  color: black;
+  border: 1px dotted orangered;  
+  }
+
+.button.button-white:hover{
+    background-color: orangered;
+    color: white;
+    transition:1s;
+    -moz-transition:1s;
+    -ms-transition:1s;
+    -o-transition:1s;
+    -webkit-transition:1s;
+}
